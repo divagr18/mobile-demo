@@ -174,7 +174,7 @@ export function CheckoutDemo({
             </p>
             <button
               className={`inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-emerald-700 px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-800 ${
-                bugTriggered ? "max-sm:hidden" : ""
+                ""
               }`}
               data-testid="checkout-button"
               type="button"
@@ -187,7 +187,7 @@ export function CheckoutDemo({
                 className="mt-3 hidden text-sm font-medium text-stone-500 max-sm:block"
                 data-testid="mobile-checkout-help"
               >
-                Review your order details before continuing.
+                Your discount is applied. Continue to payment when ready.
               </p>
             ) : null}
           </div>
